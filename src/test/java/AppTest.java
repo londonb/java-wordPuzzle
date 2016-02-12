@@ -23,6 +23,14 @@ public class AppTest extends FluentTest {
   }
 
   @Test
+  public void makesAPuzzle() {
+      goTo("http://localhost:4567/");
+      fill("#inputPhrase").with("I hope this works!");
+      submit(".btn");
+      assertThat(pageSource()).contains("- h-p- th-s w-rks!");
+  }
+
+  @Test
   public void puzzleMaker_returnPhrase_rhythm() {
     App testApp = new App();
     assertEquals("rhythm", testApp.puzzleMaker("rhythm"));

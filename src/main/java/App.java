@@ -17,7 +17,7 @@ public class App {
       return new ModelAndView(model, layout);
     }, new VelocityTemplateEngine());
 
-    get("/puzzle", (request,response)-> {
+    get("/makepuzzle", (request,response)-> {
       HashMap model = new HashMap();
       String inputPhrase = request.queryParams("inputPhrase");
       String puzzlePhrase = App.puzzleMaker(inputPhrase);

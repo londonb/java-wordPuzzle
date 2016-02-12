@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AppTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-02-12T17:36:52" hostname="epicodus-117.local" time="0.448">
+<testsuite name="AppTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-02-12T17:59:14" hostname="epicodus-117.local" time="0.349">
   <properties/>
   <testcase name="puzzleMaker_replaceLowercaseAWithADash_DASHnt" classname="AppTest" time="0.003"/>
   <testcase name="puzzleMaker_replaceAllvowelsWithADash_DASHdCDASHtDASHcDASHDASHpDDASHmb" classname="AppTest" time="0.001"/>
-  <testcase name="rootTest" classname="AppTest" time="0.431"/>
-  <testcase name="puzzleMaker_returnPhrase_rhythm" classname="AppTest" time="0.0"/>
+  <testcase name="makesAPuzzle" classname="AppTest" time="0.318"/>
+  <testcase name="rootTest" classname="AppTest" time="0.007"/>
+  <testcase name="puzzleMaker_returnPhrase_rhythm" classname="AppTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Thread-4] INFO spark.webserver.SparkServer - == Spark has ignited ...
 [Thread-4] INFO spark.webserver.SparkServer - >> Listening on 0.0.0.0:4567
 [Thread-4] INFO org.eclipse.jetty.server.Server - jetty-9.0.2.v20130417
-[Thread-4] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@64c8279e{HTTP/1.1}{0.0.0.0:4567}
+[Thread-4] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@1977047e{HTTP/1.1}{0.0.0.0:4567}
 [Test worker] INFO spark.webserver.SparkServer - >>> Spark shutting down ...
-[Test worker] INFO org.eclipse.jetty.server.Server - Graceful shutdown org.eclipse.jetty.server.Server@63be93d7 by 
-[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@64c8279e{HTTP/1.1}{0.0.0.0:4567}
+[Test worker] INFO org.eclipse.jetty.server.Server - Graceful shutdown org.eclipse.jetty.server.Server@561cadc6 by 
+[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@1977047e{HTTP/1.1}{0.0.0.0:4567}
 [Test worker] INFO spark.webserver.SparkServer - done
 ]]></system-err>
 </testsuite>
