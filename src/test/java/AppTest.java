@@ -37,6 +37,6 @@ public class AppTest extends FluentTest {
   @Test
   public void puzzleMaker_replaceAllvowelsWithADash_DASHdCDASHtDASHcDASHDASHpDDASHmb() {
     App testApp = new App();
-    assertEquals("-d c-t -c- -p D-mb", testApp.puzzleMaker("Ed cat Ice Up Dumb."));
+    assertEquals("-d c-t -c- -p D-mb.", testApp.puzzleMaker("Ed cat Ice Up Dumb."));
   }
 }
