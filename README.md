@@ -1,10 +1,12 @@
-# Title
+# Where are my vowels?
 
-#### Description and Date
+#### Create your own word puzzle, February 12, 2016
 
-#### Authors
+#### By Brad London
 
 ## Description
+
+Enter in a phrase that you want someone to guess. The program will replace all the vowels with dashes and display the puzzle on a different page.
 
 ## Setup/Installation Requirements
 
