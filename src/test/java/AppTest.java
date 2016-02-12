@@ -27,4 +27,10 @@ public class AppTest extends FluentTest {
     App testApp = new App();
     assertEquals("rhythm", testApp.puzzleMaker("rhythm"));
   }
+
+  @Test
+  public void puzzleMaker_replaceLetterLowercaseAWithADash_DASHnt() {
+    App testApp = new App();
+    assertEquals("-nt", testApp.puzzleMaker("ant"));
+  }
 }
