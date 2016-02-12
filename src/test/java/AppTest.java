@@ -13,12 +13,18 @@ public class AppTest extends FluentTest {
       return webDriver;
   }
 
-  @ClassRule
-  public static ServerRule server = new ServerRule();
+  // @ClassRule
+  // public static ServerRule server = new ServerRule();
+  //
+  // @Test
+  // public void rootTest() {
+  //     goTo("http://localhost:4567/");
+  //     assertThat(pageSource()).contains("");
+  // }
 
   @Test
-  public void rootTest() {
-      goTo("http://localhost:4567/");
-      assertThat(pageSource()).contains("");
+  public void puzzleMaker_returnPhrase_rhythm() {
+    App testApp = new App();
+    assertEquals("rhythm", testApp.puzzleMaker("rhythm"));
   }
 }
