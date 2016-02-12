@@ -29,8 +29,14 @@ public class AppTest extends FluentTest {
   }
 
   @Test
-  public void puzzleMaker_replaceLetterLowercaseAWithADash_DASHnt() {
+  public void puzzleMaker_replaceLowercaseAWithADash_DASHnt() {
     App testApp = new App();
     assertEquals("-nt", testApp.puzzleMaker("ant"));
+  }
+
+  @Test
+  public void puzzleMaker_replaceAllvowelsWithADash_DASHdCDASHtDASHcDASHDASHpDDASHmb() {
+    App testApp = new App();
+    assertEquals("-d c-t -c- -p D-mb", testApp.puzzleMaker("Ed cat Ice Up Dumb."));
   }
 }
